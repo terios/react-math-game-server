@@ -8,14 +8,15 @@ store.dispatch({
   type: "SET_INITIAL_STATE",
   state: {
     board: {
-      initialNumber: 0,
-      currentNumber: 0,
+      initialNumber: 56,
+      currentNumber: 56,
       history: []
     },
     stats: {
-      players: {},
+      players: [],
       keys: [],
-      bet: 0
+      bet: 0,
+      ready:false
     }
-  }
+  },
 });
